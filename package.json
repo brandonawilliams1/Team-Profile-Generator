@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "A Team Profile Genereator",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonawilliams1/Team-Profile-Generator.git"
+  },
+  "author": "Brandon Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonawilliams1/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/brandonawilliams1/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
