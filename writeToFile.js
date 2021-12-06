@@ -11,7 +11,7 @@ function writeToFile(fileName, data) {
       resolve({
         ok: true,
       });
-      console.log('index.html created successfully. Please check the output folder!');
+      console.log('index.html created successfully!');
     });
   });
 };
