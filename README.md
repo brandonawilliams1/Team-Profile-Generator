@@ -2,7 +2,7 @@
   
   # Description
   This app will generate a profile for each employee
-
+  https://watch.screencastify.com/v/V4qJ7Q9qAce4kF8IE6NK
   ---
   # Table of Contents
   * [Installation](#installation)
@@ -14,7 +14,8 @@
   
   ---
   ## Installation
-  undefined
+  . Run: `npm start` or `node index.js`.
+  . Answer the prompts.
   ---
   ## Usage
   undefined
@@ -34,4 +35,4 @@
   Licensed under . 
  
   ## Tests
-  test
+  This app has 4 tests, one for each `class`, using `jest`. To run the tests type the command `npm run test` in the command line.

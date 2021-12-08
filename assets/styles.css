@@ -10,8 +10,8 @@
   }
   h1 {
     height: 100px;
-    background-color: #e53935;
-    color: white;
+    background-color: #19d2c3;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
     font-weight: 400;
@@ -35,7 +35,7 @@
   
   .blue-bg {
     padding: 5px;
-    background-color: #1976d2;
+    background-color: #19d2c3;
     color: white;
   }
   
