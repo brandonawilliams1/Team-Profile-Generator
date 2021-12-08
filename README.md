@@ -11,7 +11,7 @@
   * [Tests](#tests)
   * [Questions](#questions)
   
-  
+  assets\team-profilw-snap.jpg
   ---
   ## Installation
   . Run: `npm start` or `node index.js`.
