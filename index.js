@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const { addManager, next, addEngineer, addIntern } = require('./questions');
-const writeToFile = require('./writeToFile');
+const writeToFile = require('./gitwriteToFile');
 const generateHTML = require('./generateHTML');
 
 const logo = require('asciiart-logo');
@@ -10,9 +10,9 @@ const config = require('./package.json');
 console.log(logo(config).render());
 
 
-const Manager = require('./Manager');
-const Engineer = require('./Engineer');
-const Intern = require('./Intern');
+const Manager = require('./team/Manager');
+const Engineer = require('./team/Engineer');
+const Intern = require('./team/Intern');
 
 let manager = {};
 const engineers = [];
@@ -20,8 +20,8 @@ const interns = [];
 
 const finish = () => {
   const htmlData = generateHTML(manager, engineers, interns);
-  !fs.existsSync() && fs.mkdirSync();
-  return writeToFile('./index.html', htmlData);
+  !fs.existsSync('assets') && fs.mkdirSync('assets');
+  return writeToFile('./assets/index.html', htmlData);
 };
 
 const nextAction = () => {
