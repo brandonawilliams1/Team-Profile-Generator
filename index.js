@@ -1,11 +1,15 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const { addManager, next, addEngineer, addIntern } = require('./questions');
-const writeToFile = require('./gitwriteToFile');
+const writeToFile = require('./writeToFile');
 const generateHTML = require('./generateHTML');
 
 const logo = require('asciiart-logo');
 const config = require('./package.json');
+config.logoColor = 'bold-green';
+config.textColor = 'green';
+config.borderColor = 'yellow';
+
 
 console.log(logo(config).render());
 
