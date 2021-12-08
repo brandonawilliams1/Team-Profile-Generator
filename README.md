@@ -11,7 +11,7 @@
   * [Tests](#tests)
   * [Questions](#questions)
   
-  (./assets/team-profilw-snap.jpg)
+  https://github.com/brandonawilliams1/Team-Profile-Generator/blob/main/assets/team-profilw-snap.jpg?raw=true
   ---
   ## Installation
   . Run: `npm start` or `node index.js`.
